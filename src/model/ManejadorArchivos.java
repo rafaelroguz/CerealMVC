@@ -11,6 +11,12 @@ import java.util.Scanner;
 
 public class ManejadorArchivos {
     
+    /**
+     * Recibe una línea de texto que contiene la fecha y hora de la votación y la
+     * agrega al final del archivo de texto. Si el archivo no existe, lo crea primero.
+     * @param archivo ruta y nombre el archivo de texto donde se guardarán los votos.
+     * @param lineaTexto línea de texto con la fecha y hora del voto.
+     */
     public void escribirArchivo(String archivo, String lineaTexto) {
         
         try{
@@ -32,6 +38,12 @@ public class ManejadorArchivos {
         
     }
     
+    /**
+     * Abre el archivo de votación y contabiliza el número de línea para sacar
+     * la cuenta del número de votos para ese archivo.
+     * @param archivo ruta y nombre del archivo de texto donde están guardados los votos.
+     * @return numeroVotos el número de votos para ese archivo.
+     */
     public int leerArchivo(String archivo) {
         
         int numeroVotos = 0;

@@ -23,7 +23,7 @@ public class ControladorCereal implements ActionListener {
     
     public void iniciarVista() {
         
-        vista.setTitle("Cereales");
+        vista.setTitle("Votación Cereales");
         vista.pack();
         vista.setDefaultCloseOperation(vista.EXIT_ON_CLOSE);
         vista.setLocationRelativeTo(null);
@@ -53,7 +53,5 @@ public class ControladorCereal implements ActionListener {
         vista.actualizar(modelo.getVotosCorn(), modelo.getVotosChoco(), modelo.getVotosZuca());
         
     }
-    
-    
     
 }
