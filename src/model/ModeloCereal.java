@@ -6,18 +6,18 @@ import java.util.Date;
 
 public class ModeloCereal {
     
-    private final String archivoCorn = "votos/votos_cornflakes.txt";
-    private final String archivoChoco = "votos/votos_chocokrispies.txt";
-    private final String archivoZuca = "votos/votos_zucaritas.txt";
+    private final String archivoCorn = "votos_cornflakes.txt";
+    private final String archivoChoco = "votos_chocokrispies.txt";
+    private final String archivoZuca = "votos_zucaritas.txt";
     private int votosCorn;
     private int votosChoco;
     private int votosZuca;
     
     public ModeloCereal() {
         
-        this.votosCorn = 0;
-        this.votosChoco = 0;
-        this.votosZuca = 0;
+        this.votosCorn = leerVotos(archivoCorn);
+        this.votosChoco = leerVotos(archivoChoco);
+        this.votosZuca = leerVotos(archivoZuca);
         
     }
     
@@ -53,8 +53,18 @@ public class ModeloCereal {
         ManejadorArchivos manejadorArchivo = new ManejadorArchivos();    
         DateFormat formatoFecha = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date fechaHoraActual = new Date();
+        String lineaTexto = formatoFecha.format(fechaHoraActual) + "\n";
         
-        manejadorArchivo.escribirArchivo(archivo, formatoFecha.format(fechaHoraActual));
+        manejadorArchivo.escribirArchivo(archivo, lineaTexto);
         
     }
+    
+    private int leerVotos(String archivo) {
+        
+        ManejadorArchivos manejadorArchivo = new ManejadorArchivos(); 
+        
+        return manejadorArchivo.leerArchivo(archivo);
+        
+    }
+    
 }

@@ -2,7 +2,11 @@ package model;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.PrintWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
 
 public class ManejadorArchivos {
@@ -10,13 +14,16 @@ public class ManejadorArchivos {
     public void escribirArchivo(String archivo, String lineaTexto) {
         
         try{
+        
+            final Path rutaArchivo = Paths.get(archivo); 
             
-            PrintWriter fileOut = new PrintWriter(archivo);
+            if (Files.notExists(rutaArchivo)) {
+                Files.createFile(rutaArchivo);
+            } 
+                
+            Files.write(Paths.get(archivo), lineaTexto.getBytes(), StandardOpenOption.APPEND);           
             
-            fileOut.println(lineaTexto);
-            fileOut.close();
-            
-        } catch (FileNotFoundException e){
+        } catch (IOException e) {
             
             System.out.println("Error de escritura del archivo \"" + archivo + "\".");
             e.printStackTrace();
@@ -34,7 +41,10 @@ public class ManejadorArchivos {
             Scanner fileIn = new Scanner(new FileReader(archivo));
             
             while (fileIn.hasNextLine()){
+                
                 numeroVotos++;
+                fileIn.nextLine();
+                
             }
             
             fileIn.close();
@@ -43,6 +53,8 @@ public class ManejadorArchivos {
             
             System.out.println("Error de lectura del archivo \"" + archivo + "\".");
             e.printStackTrace();
+            
+            return 0;
             
         }
         

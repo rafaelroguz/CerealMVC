@@ -28,6 +28,7 @@ public class ControladorCereal implements ActionListener {
         vista.setDefaultCloseOperation(vista.EXIT_ON_CLOSE);
         vista.setLocationRelativeTo(null);
         vista.setVisible(true);  
+        vista.actualizar(modelo.getVotosCorn(), modelo.getVotosChoco(), modelo.getVotosZuca());
         
     }
         
