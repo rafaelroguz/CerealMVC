@@ -6,19 +6,27 @@
 package view;
 
 import javax.swing.JButton;
-import javax.swing.JLabel;
+import model.Bitacora;
 
 /**
  *
  * @author rafael
  */
 public class VistaCereal extends javax.swing.JFrame {
-
+    
+    private final String NOMBRE_CLASE = "VistaCereal";
+    private Bitacora bitacora;
+    
     /**
      * Creates new form viewCereal
      */
     public VistaCereal() {
+        
         initComponents();
+        this.bitacora = new Bitacora();
+        
+        this.bitacora.guardarRegistro("VistaCereal()", NOMBRE_CLASE);
+        
     }
 
     /**
@@ -30,46 +38,46 @@ public class VistaCereal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        labelChoco = new javax.swing.JLabel();
-        labelZuca = new javax.swing.JLabel();
-        buttonCorn = new javax.swing.JButton();
-        buttonChoco = new javax.swing.JButton();
-        buttonZuca = new javax.swing.JButton();
-        labelCorn = new javax.swing.JLabel();
+        labelCerealA = new javax.swing.JLabel();
+        labelCerealC = new javax.swing.JLabel();
+        labelCerealB = new javax.swing.JLabel();
+        labelVotosCerealB = new javax.swing.JLabel();
+        labelVotosCerealC = new javax.swing.JLabel();
+        buttonCerealA = new javax.swing.JButton();
+        buttonCerealB = new javax.swing.JButton();
+        buttonCerealC = new javax.swing.JButton();
+        labelVotosCerealA = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Cereales");
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel1.setText("Corn Flakes");
+        labelCerealA.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        labelCerealA.setText("Corn Flakes");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("Zucaritas");
+        labelCerealC.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        labelCerealC.setText("Zucaritas");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel3.setText("Choco Krispis");
+        labelCerealB.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        labelCerealB.setText("Choco Krispis");
 
-        labelChoco.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        labelChoco.setText("0");
+        labelVotosCerealB.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        labelVotosCerealB.setText("0");
 
-        labelZuca.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        labelZuca.setText("0");
+        labelVotosCerealC.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        labelVotosCerealC.setText("0");
 
-        buttonCorn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        buttonCorn.setText("Votar");
+        buttonCerealA.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        buttonCerealA.setText("Votar");
 
-        buttonChoco.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        buttonChoco.setText("Votar");
+        buttonCerealB.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        buttonCerealB.setText("Votar");
 
-        buttonZuca.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        buttonZuca.setText("Votar");
+        buttonCerealC.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        buttonCerealC.setText("Votar");
 
-        labelCorn.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        labelCorn.setText("0");
+        labelVotosCerealA.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        labelVotosCerealA.setText("0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -78,24 +86,24 @@ public class VistaCereal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addComponent(labelCorn))
+                    .addComponent(labelCerealA)
+                    .addComponent(labelVotosCerealA))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(labelChoco))
+                    .addComponent(labelCerealB)
+                    .addComponent(labelVotosCerealB))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(labelZuca))
+                    .addComponent(labelCerealC)
+                    .addComponent(labelVotosCerealC))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(29, 29, 29)
-                .addComponent(buttonCorn)
+                .addComponent(buttonCerealA)
                 .addGap(73, 73, 73)
-                .addComponent(buttonChoco)
+                .addComponent(buttonCerealB)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(buttonZuca)
+                .addComponent(buttonCerealC)
                 .addGap(22, 22, 22))
         );
         layout.setVerticalGroup(
@@ -103,19 +111,19 @@ public class VistaCereal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                    .addComponent(labelCerealA)
+                    .addComponent(labelCerealC)
+                    .addComponent(labelCerealB))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelCorn)
-                    .addComponent(labelChoco)
-                    .addComponent(labelZuca))
+                    .addComponent(labelVotosCerealA)
+                    .addComponent(labelVotosCerealB)
+                    .addComponent(labelVotosCerealC))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonCorn)
-                    .addComponent(buttonChoco)
-                    .addComponent(buttonZuca))
+                    .addComponent(buttonCerealA)
+                    .addComponent(buttonCerealB)
+                    .addComponent(buttonCerealC))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -156,39 +164,69 @@ public class VistaCereal extends javax.swing.JFrame {
                 new VistaCereal().setVisible(true);
             }
         });
+                
+    }
+    
+    public void actualizarCereales(
+            String cerealA, 
+            String cerealB, 
+            String cerealC,
+            int votosCerealA, 
+            int votosCerealB, 
+            int votosCerealC) {
         
+        bitacora.guardarRegistro("actualizarCereales()", NOMBRE_CLASE);
+        
+        labelCerealA.setText(cerealA);
+        labelVotosCerealA.setText(String.valueOf(votosCerealA));
+        
+        labelCerealB.setText(cerealB);
+        labelVotosCerealB.setText(String.valueOf(votosCerealB));
+        
+        labelCerealC.setText(cerealC);
+        labelVotosCerealC.setText(String.valueOf(votosCerealC));
         
     }
     
-    public void actualizar(int votosCorn, int votosChoco, int votosZuca) {
-        
-        labelCorn.setText(String.valueOf(votosCorn));
-        labelChoco.setText(String.valueOf(votosChoco));
-        labelZuca.setText(String.valueOf(votosZuca));
-        
+    public void actualizarVotosA(int votosCerealA) {
+        bitacora.guardarRegistro("actualizarVotosA()", NOMBRE_CLASE);
+        labelVotosCerealA.setText(String.valueOf(votosCerealA));
+    }
+    
+    public void actualizarVotosB(int votosCerealB) {
+        bitacora.guardarRegistro("actualizarVotosB()", NOMBRE_CLASE);
+        labelVotosCerealB.setText(String.valueOf(votosCerealB));
+    }
+    
+    public void actualizarVotosC(int votosCerealC) {
+        bitacora.guardarRegistro("actualizarVotosC()", NOMBRE_CLASE);
+        labelVotosCerealC.setText(String.valueOf(votosCerealC));        
     }
 
-    public JButton getButtonChoco() {
-        return buttonChoco;
+    public JButton getButtonCerealA() {
+        bitacora.guardarRegistro("getButtonCerealA()", NOMBRE_CLASE);
+        return buttonCerealA;
     }
 
-    public JButton getButtonCorn() {
-        return buttonCorn;
+    public JButton getButtonCerealB() {
+        bitacora.guardarRegistro("getButtonCerealB()", NOMBRE_CLASE);
+        return buttonCerealB;
     }
 
-    public JButton getButtonZuca() {
-        return buttonZuca;
+    public JButton getButtonCerealC() {
+        bitacora.guardarRegistro("getButtonCerealC()", NOMBRE_CLASE);
+        return buttonCerealC;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton buttonChoco;
-    private javax.swing.JButton buttonCorn;
-    private javax.swing.JButton buttonZuca;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel labelChoco;
-    private javax.swing.JLabel labelCorn;
-    private javax.swing.JLabel labelZuca;
+    private javax.swing.JButton buttonCerealA;
+    private javax.swing.JButton buttonCerealB;
+    private javax.swing.JButton buttonCerealC;
+    private javax.swing.JLabel labelCerealA;
+    private javax.swing.JLabel labelCerealB;
+    private javax.swing.JLabel labelCerealC;
+    private javax.swing.JLabel labelVotosCerealA;
+    private javax.swing.JLabel labelVotosCerealB;
+    private javax.swing.JLabel labelVotosCerealC;
     // End of variables declaration//GEN-END:variables
 }

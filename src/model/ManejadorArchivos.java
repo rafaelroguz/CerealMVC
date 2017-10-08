@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ManejadorArchivos {
@@ -32,7 +33,6 @@ public class ManejadorArchivos {
         } catch (IOException e) {
             
             System.out.println("Error de escritura del archivo \"" + archivo + "\".");
-            e.printStackTrace();
             
         }
         
@@ -44,7 +44,7 @@ public class ManejadorArchivos {
      * @param archivo ruta y nombre del archivo de texto donde están guardados los votos.
      * @return numeroVotos el número de votos para ese archivo.
      */
-    public int leerArchivo(String archivo) {
+    public int leerVotos(String archivo) {
         
         int numeroVotos = 0;
         
@@ -64,13 +64,38 @@ public class ManejadorArchivos {
         } catch(FileNotFoundException e) {
             
             System.out.println("Error de lectura del archivo \"" + archivo + "\".");
-            e.printStackTrace();
             
             return 0;
             
         }
         
         return numeroVotos;
+        
+    }
+    
+    public ArrayList<String> leerCereales(String archivo) {
+        
+        ArrayList<String> cereales = new ArrayList<String>();
+        
+        try{
+            
+            Scanner fileIn = new Scanner(new FileReader(archivo));
+            
+            while (fileIn.hasNextLine()){
+                cereales.add(fileIn.nextLine());                
+            }
+            
+            fileIn.close();
+            
+        } catch(FileNotFoundException e) {
+            
+            System.out.println("Error de lectura del archivo \"" + archivo + "\".");
+            
+            System.exit(0);
+            
+        }
+        
+        return cereales;
         
     }
     
