@@ -3,8 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/rafael/Dropbox/Java/CerealMVC/src/model/ManejadorArchivos.java</file>
-            <file>file:/D:/rafael/Dropbox/Java/CerealMVC/src/model/ModeloCereal.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/model/ModeloCereal.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/controller/ControladorGraficos.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/controller/ControladorCereal.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/view/Graficos_T.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/test/VotacionCereal.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/model/ManejadorArchivos.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/model/Bitacora.java</file>
+            <file>file:/C:/Users/ARMC3PO/Documents/NetBeansProjects/CerealMVC-master/src/view/VistaCereal.java</file>
         </group>
     </open-files>
 </project-private>

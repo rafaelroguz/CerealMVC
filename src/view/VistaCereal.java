@@ -5,8 +5,16 @@
  */
 package view;
 
+import java.awt.GridLayout;
+import java.awt.LayoutManager;
 import javax.swing.JButton;
+import javax.swing.JPanel;
 import model.Bitacora;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 /**
  *
@@ -16,6 +24,8 @@ public class VistaCereal extends javax.swing.JFrame {
     
     private final String NOMBRE_CLASE = "VistaCereal";
     private Bitacora bitacora;
+
+    
     
     /**
      * Creates new form viewCereal
@@ -23,8 +33,8 @@ public class VistaCereal extends javax.swing.JFrame {
     public VistaCereal() {
         
         initComponents();
+        //this.panelGraficos.setLayout(new GridLayout(1,2));
         this.bitacora = new Bitacora();
-        
         this.bitacora.guardarRegistro("VistaCereal()", NOMBRE_CLASE);
         
     }
@@ -38,6 +48,7 @@ public class VistaCereal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        panelVotos = new javax.swing.JPanel();
         labelCerealA = new javax.swing.JLabel();
         labelCerealC = new javax.swing.JLabel();
         labelCerealB = new javax.swing.JLabel();
@@ -47,6 +58,7 @@ public class VistaCereal extends javax.swing.JFrame {
         buttonCerealB = new javax.swing.JButton();
         buttonCerealC = new javax.swing.JButton();
         labelVotosCerealA = new javax.swing.JLabel();
+        panelGraficos = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Cereales");
@@ -79,6 +91,66 @@ public class VistaCereal extends javax.swing.JFrame {
         labelVotosCerealA.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         labelVotosCerealA.setText("0");
 
+        javax.swing.GroupLayout panelVotosLayout = new javax.swing.GroupLayout(panelVotos);
+        panelVotos.setLayout(panelVotosLayout);
+        panelVotosLayout.setHorizontalGroup(
+            panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelVotosLayout.createSequentialGroup()
+                .addContainerGap(566, Short.MAX_VALUE)
+                .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelCerealB)
+                    .addComponent(labelVotosCerealB)
+                    .addGroup(panelVotosLayout.createSequentialGroup()
+                        .addGap(23, 23, 23)
+                        .addComponent(buttonCerealB)))
+                .addGap(561, 561, 561))
+            .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panelVotosLayout.createSequentialGroup()
+                    .addGap(132, 132, 132)
+                    .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(labelCerealA)
+                        .addComponent(labelVotosCerealA)
+                        .addGroup(panelVotosLayout.createSequentialGroup()
+                            .addGap(17, 17, 17)
+                            .addComponent(buttonCerealA)))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 782, Short.MAX_VALUE)
+                    .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(labelCerealC)
+                        .addComponent(labelVotosCerealC)
+                        .addGroup(panelVotosLayout.createSequentialGroup()
+                            .addGap(11, 11, 11)
+                            .addComponent(buttonCerealC)))
+                    .addGap(133, 133, 133)))
+        );
+        panelVotosLayout.setVerticalGroup(
+            panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelVotosLayout.createSequentialGroup()
+                .addContainerGap(20, Short.MAX_VALUE)
+                .addComponent(labelCerealB)
+                .addGap(18, 18, 18)
+                .addComponent(labelVotosCerealB)
+                .addGap(27, 27, 27)
+                .addComponent(buttonCerealB)
+                .addContainerGap())
+            .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panelVotosLayout.createSequentialGroup()
+                    .addGap(16, 16, 16)
+                    .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(labelCerealA)
+                        .addComponent(labelCerealC))
+                    .addGap(18, 18, 18)
+                    .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(labelVotosCerealC)
+                        .addComponent(labelVotosCerealA))
+                    .addGap(27, 27, 27)
+                    .addGroup(panelVotosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(buttonCerealA)
+                        .addComponent(buttonCerealC))
+                    .addContainerGap(17, Short.MAX_VALUE)))
+        );
+
+        panelGraficos.setLayout(new java.awt.GridLayout());
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -86,45 +158,18 @@ public class VistaCereal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelCerealA)
-                    .addComponent(labelVotosCerealA))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelCerealB)
-                    .addComponent(labelVotosCerealB))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelCerealC)
-                    .addComponent(labelVotosCerealC))
+                    .addComponent(panelGraficos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(panelVotos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(29, 29, 29)
-                .addComponent(buttonCerealA)
-                .addGap(73, 73, 73)
-                .addComponent(buttonCerealB)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(buttonCerealC)
-                .addGap(22, 22, 22))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelCerealA)
-                    .addComponent(labelCerealC)
-                    .addComponent(labelCerealB))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelVotosCerealA)
-                    .addComponent(labelVotosCerealB)
-                    .addComponent(labelVotosCerealC))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonCerealA)
-                    .addComponent(buttonCerealB)
-                    .addComponent(buttonCerealC))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(panelGraficos, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(panelVotos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(18, Short.MAX_VALUE))
         );
 
         pack();
@@ -175,6 +220,8 @@ public class VistaCereal extends javax.swing.JFrame {
             int votosCerealB, 
             int votosCerealC) {
         
+        
+        panelGraficos.setVisible(true);
         bitacora.guardarRegistro("actualizarCereales()", NOMBRE_CLASE);
         
         labelCerealA.setText(cerealA);
@@ -218,6 +265,20 @@ public class VistaCereal extends javax.swing.JFrame {
         return buttonCerealC;
     }
 
+    public JPanel getPanelGraficos() {
+        return panelGraficos;
+    }
+
+    public void setPanelGraficos(JPanel panelGraficos) {
+        this.panelGraficos = panelGraficos;
+        
+    }
+    public void showPanelGraficos(){
+        this.panelGraficos.setVisible(true);
+    }
+    
+    
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton buttonCerealA;
     private javax.swing.JButton buttonCerealB;
@@ -228,5 +289,7 @@ public class VistaCereal extends javax.swing.JFrame {
     private javax.swing.JLabel labelVotosCerealA;
     private javax.swing.JLabel labelVotosCerealB;
     private javax.swing.JLabel labelVotosCerealC;
+    private javax.swing.JPanel panelGraficos;
+    private javax.swing.JPanel panelVotos;
     // End of variables declaration//GEN-END:variables
 }

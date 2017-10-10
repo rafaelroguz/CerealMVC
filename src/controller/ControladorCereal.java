@@ -2,6 +2,7 @@ package controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JPanel;
 import model.Bitacora;
 import model.ModeloCereal;
 import view.VistaCereal;
@@ -12,9 +13,10 @@ public class ControladorCereal implements ActionListener {
     private final Bitacora bitacora;
     private final ModeloCereal modelo;
     private final VistaCereal vista;
+    private ControladorGraficos graficos;
     
     public ControladorCereal(ModeloCereal modelo, VistaCereal vista) {
-        
+        graficos = new ControladorGraficos(vista.getPanelGraficos());
         bitacora = new Bitacora();
         bitacora.guardarRegistro("ControladorCereal()", NOMBRE_CLASE);
         
@@ -42,6 +44,7 @@ public class ControladorCereal implements ActionListener {
                 modelo.getVotosCerealA(), 
                 modelo.getVotosCerealB(), 
                 modelo.getVotosCerealC());
+        cargarGraficos();
         
     }
         
@@ -51,6 +54,7 @@ public class ControladorCereal implements ActionListener {
         bitacora.guardarRegistro("actionPerformed(ActionEvent evento)", NOMBRE_CLASE);
         
         Object botonPresionado = evento.getSource();
+        cargarGraficos();
         
         if (botonPresionado == vista.getButtonCerealA()) {
             bitacora.guardarRegistro("\tClicked cereal A button", NOMBRE_CLASE);
@@ -71,6 +75,13 @@ public class ControladorCereal implements ActionListener {
             System.out.println("Error al contabilizar el voto.");
         }
         
+    }
+    
+    private void cargarGraficos(){
+        System.out.println("Cargando gráficos...");
+        graficos.actualizarGraficos(modelo.getVotosCerealA(), modelo.getCerealA(), modelo.getVotosCerealB(), modelo.getCerealB(), modelo.getVotosCerealC(), modelo.getCerealC());
+        vista.setPanelGraficos(graficos.getPanelGraficos());
+        System.out.println("Gráficos Cargados con éxito.");
     }
     
 }
