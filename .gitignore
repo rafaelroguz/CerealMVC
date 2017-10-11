@@ -1,0 +1,7 @@
+
+*.iml
+.idea/modules.xml
+nbproject/private/private.properties
+*.xml
+.idea/vcs.xml
+nbproject/private/private.xml
