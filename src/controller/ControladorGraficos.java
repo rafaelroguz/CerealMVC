@@ -32,9 +32,9 @@ public class ControladorGraficos {
         contenedorGraficoBarras = new ChartPanel(grafico);
         contenedorGraficoBarras.setSize(400, 300);
         contenedorGraficoBarras.setVisible(true);
-        contenedorGraficoBarras.updateUI();
-        panelGraficos.add(contenedorGraficoBarras);
         //contenedorGraficoBarras.updateUI();
+        panelGraficos.add(contenedorGraficoBarras);
+        contenedorGraficoBarras.updateUI();
         
     }
     
@@ -54,9 +54,9 @@ public class ControladorGraficos {
         contenedorGraficoPastel = new ChartPanel(grafico);
         contenedorGraficoPastel.setSize(400, 300);
         contenedorGraficoPastel.setVisible(true);
-        contenedorGraficoPastel.updateUI();
-        panelGraficos.add(contenedorGraficoPastel);
         //contenedorGraficoPastel.updateUI();
+        panelGraficos.add(contenedorGraficoPastel);
+        contenedorGraficoPastel.updateUI();
     }
     
     public void actualizarGraficos(int votosProductoA, String nombreProductoA, 
@@ -67,6 +67,7 @@ public class ControladorGraficos {
         actualizarGraficoBarras(votosProductoA, nombreProductoA, votosProductoB, nombreProductoB, votosProductoC, nombreProductoC);
         actualizarGraficoPastel(votosProductoA, nombreProductoA, votosProductoB, nombreProductoB, votosProductoC, nombreProductoC);
         panelGraficos.setVisible(true);
+        panelGraficos.updateUI();
     }   
     
     public JPanel getPanelGraficos(){

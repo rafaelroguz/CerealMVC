@@ -54,7 +54,7 @@ public class ControladorCereal implements ActionListener {
         bitacora.guardarRegistro("actionPerformed(ActionEvent evento)", NOMBRE_CLASE);
         
         Object botonPresionado = evento.getSource();
-        cargarGraficos();
+        
         
         if (botonPresionado == vista.getButtonCerealA()) {
             bitacora.guardarRegistro("\tClicked cereal A button", NOMBRE_CLASE);
@@ -74,7 +74,7 @@ public class ControladorCereal implements ActionListener {
         else {
             System.out.println("Error al contabilizar el voto.");
         }
-        
+        cargarGraficos();
     }
     
     private void cargarGraficos(){
