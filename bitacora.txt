@@ -10414,3 +10414,1872 @@ votoCerealC() @ ModeloCereal -- 2017/10/10 16:18:50
 guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 16:18:50
 getVotosCerealC() @ ModeloCereal -- 2017/10/10 16:18:50
 actualizarVotosC() @ VistaCereal -- 2017/10/10 16:18:50
+main(String[] args) @ VotacionCereal -- 2017/10/10 21:46:51
+ModeloCereal modelo = new ModeloCereal() @ VotacionCereal -- 2017/10/10 21:46:51
+ModeloCereal() @ ModeloCereal -- 2017/10/10 21:46:51
+leerCereales(String archivo) @ ModeloCereal -- 2017/10/10 21:46:51
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:46:51
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:46:51
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:46:51
+VistaCereal vista = new VistaCereal() @ VotacionCereal -- 2017/10/10 21:46:51
+VistaCereal() @ VistaCereal -- 2017/10/10 21:46:52
+ControladorCereal controlador = new ControladorCereal(modelo, vista) @ VotacionCereal -- 2017/10/10 21:46:52
+ControladorCereal() @ ControladorCereal -- 2017/10/10 21:46:52
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:46:52
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:46:52
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:46:52
+controlador.iniciarVista() @ VotacionCereal -- 2017/10/10 21:46:52
+iniciarVista() @ ControladorCereal -- 2017/10/10 21:46:52
+getCerealA() @ ModeloCereal -- 2017/10/10 21:46:53
+getCerealB() @ ModeloCereal -- 2017/10/10 21:46:53
+getCerealC() @ ModeloCereal -- 2017/10/10 21:46:53
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:46:53
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:46:53
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:46:53
+actualizarCereales() @ VistaCereal -- 2017/10/10 21:46:53
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:46:53
+getCerealA() @ ModeloCereal -- 2017/10/10 21:46:53
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:46:53
+getCerealB() @ ModeloCereal -- 2017/10/10 21:46:53
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:46:53
+getCerealC() @ ModeloCereal -- 2017/10/10 21:46:53
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:46:58
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:46:58
+getCerealA() @ ModeloCereal -- 2017/10/10 21:46:58
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:46:58
+getCerealB() @ ModeloCereal -- 2017/10/10 21:46:58
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+getCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:46:58
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:46:58
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:46:58
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:46:58
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:46:58
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:46:58
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:46:58
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:46:58
+getCerealA() @ ModeloCereal -- 2017/10/10 21:46:58
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:46:58
+getCerealB() @ ModeloCereal -- 2017/10/10 21:46:58
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+getCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:46:58
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:46:58
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:46:58
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:46:58
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:46:58
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:46:58
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:46:58
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:00
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:00
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:00
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:00
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:00
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:00
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:00
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:00
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:00
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:00
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:00
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:00
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:00
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:00
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:00
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:00
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:00
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:00
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:00
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:00
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:00
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:01
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:01
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:01
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:01
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:01
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:01
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:01
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:01
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:01
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:01
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:02
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:02
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:02
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:03
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:03
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:03
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:03
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:03
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:03
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:03
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:04
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:04
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:04
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:04
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:04
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:04
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:04
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:47:04
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:47:04
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:04
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:47:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:05
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:05
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:05
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:05
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:05
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:05
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:05
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:05
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:05
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:05
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:05
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:05
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:05
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:06
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:06
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:06
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:06
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:06
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:06
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:06
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:06
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:06
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:06
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:07
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:07
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:07
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:07
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:07
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:07
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:07
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:47:07
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:47:07
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:47:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:07
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:07
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:07
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:09
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:09
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:09
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:09
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:09
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:09
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:09
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:09
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:09
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:09
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:09
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:09
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:09
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:09
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:09
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:12
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:12
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:12
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:12
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:12
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:12
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:12
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:12
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:12
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:12
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:12
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:12
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:12
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:13
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:13
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:13
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:13
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:13
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:13
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:13
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:13
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:13
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:47:13
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+getCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:47:13
+getCerealB() @ ModeloCereal -- 2017/10/10 21:47:13
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:47:13
+getCerealC() @ ModeloCereal -- 2017/10/10 21:47:13
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:47:13
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:47:13
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:47:13
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:47:13
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:47:13
+main(String[] args) @ VotacionCereal -- 2017/10/10 21:50:21
+ModeloCereal modelo = new ModeloCereal() @ VotacionCereal -- 2017/10/10 21:50:21
+ModeloCereal() @ ModeloCereal -- 2017/10/10 21:50:21
+leerCereales(String archivo) @ ModeloCereal -- 2017/10/10 21:50:21
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:50:21
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:50:21
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:50:21
+VistaCereal vista = new VistaCereal() @ VotacionCereal -- 2017/10/10 21:50:21
+VistaCereal() @ VistaCereal -- 2017/10/10 21:50:22
+ControladorCereal controlador = new ControladorCereal(modelo, vista) @ VotacionCereal -- 2017/10/10 21:50:22
+ControladorCereal() @ ControladorCereal -- 2017/10/10 21:50:22
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:50:22
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:50:22
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:50:22
+controlador.iniciarVista() @ VotacionCereal -- 2017/10/10 21:50:22
+iniciarVista() @ ControladorCereal -- 2017/10/10 21:50:22
+getCerealA() @ ModeloCereal -- 2017/10/10 21:50:22
+getCerealB() @ ModeloCereal -- 2017/10/10 21:50:22
+getCerealC() @ ModeloCereal -- 2017/10/10 21:50:22
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:50:22
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:50:22
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:50:22
+actualizarCereales() @ VistaCereal -- 2017/10/10 21:50:22
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:50:22
+getCerealA() @ ModeloCereal -- 2017/10/10 21:50:22
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:50:22
+getCerealB() @ ModeloCereal -- 2017/10/10 21:50:22
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:50:22
+getCerealC() @ ModeloCereal -- 2017/10/10 21:50:22
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:50:23
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:50:23
+getCerealA() @ ModeloCereal -- 2017/10/10 21:50:23
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:50:23
+getCerealB() @ ModeloCereal -- 2017/10/10 21:50:23
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:50:23
+getCerealC() @ ModeloCereal -- 2017/10/10 21:50:23
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:50:23
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:50:23
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:50:23
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:50:23
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:50:23
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:50:23
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:50:26
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:50:26
+getCerealA() @ ModeloCereal -- 2017/10/10 21:50:26
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:50:26
+getCerealB() @ ModeloCereal -- 2017/10/10 21:50:26
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:50:26
+getCerealC() @ ModeloCereal -- 2017/10/10 21:50:26
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:50:26
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:50:26
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:50:26
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:50:26
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:50:26
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:50:26
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:50:26
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:50:27
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:50:27
+getCerealA() @ ModeloCereal -- 2017/10/10 21:50:27
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:50:27
+getCerealB() @ ModeloCereal -- 2017/10/10 21:50:27
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:50:27
+getCerealC() @ ModeloCereal -- 2017/10/10 21:50:27
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:50:27
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:50:27
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:50:27
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:50:27
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:50:27
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:50:27
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:50:27
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:50:27
+main(String[] args) @ VotacionCereal -- 2017/10/10 21:56:21
+ModeloCereal modelo = new ModeloCereal() @ VotacionCereal -- 2017/10/10 21:56:21
+ModeloCereal() @ ModeloCereal -- 2017/10/10 21:56:21
+leerCereales(String archivo) @ ModeloCereal -- 2017/10/10 21:56:21
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:56:21
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:56:21
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:56:21
+VistaCereal vista = new VistaCereal() @ VotacionCereal -- 2017/10/10 21:56:21
+VistaCereal() @ VistaCereal -- 2017/10/10 21:56:23
+ControladorCereal controlador = new ControladorCereal(modelo, vista) @ VotacionCereal -- 2017/10/10 21:56:23
+ControladorCereal() @ ControladorCereal -- 2017/10/10 21:56:23
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:23
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:23
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:23
+controlador.iniciarVista() @ VotacionCereal -- 2017/10/10 21:56:23
+iniciarVista() @ ControladorCereal -- 2017/10/10 21:56:23
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:23
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:23
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:23
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:23
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:23
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:23
+actualizarCereales() @ VistaCereal -- 2017/10/10 21:56:23
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:23
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:23
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:23
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:23
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:23
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:23
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:27
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:27
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:27
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:27
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:27
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:27
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:27
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:27
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:27
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:27
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:27
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:27
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:27
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:27
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:27
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:29
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:29
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:29
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:29
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:29
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:29
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:29
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:29
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:29
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:29
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:29
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:29
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:29
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:29
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:29
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:29
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:29
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:29
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:29
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:29
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:29
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:29
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:30
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:30
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:30
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:30
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:30
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:30
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:30
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:30
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:30
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:30
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:30
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:30
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:30
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:30
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:30
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:30
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:30
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:30
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:30
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:30
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:30
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:30
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:30
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:30
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:30
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:31
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:31
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:31
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:31
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:31
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:31
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:31
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:31
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:31
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:31
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:31
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:31
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:32
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:32
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:32
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:32
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:32
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:32
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:32
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:33
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:33
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:33
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:33
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:33
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:33
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:33
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:33
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:33
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:33
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:33
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:33
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:33
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:33
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:33
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:33
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:33
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:33
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:33
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:34
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:34
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:34
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:34
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:34
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:34
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:34
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:34
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:34
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:34
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:34
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:34
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:34
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:34
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:34
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:34
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:34
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:34
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:34
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:34
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:35
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:35
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:35
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:35
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:35
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:35
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:35
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:35
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:35
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:35
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:35
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:35
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:35
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:35
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:35
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:35
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:35
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:35
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:35
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:35
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:35
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:35
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:35
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:36
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:36
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:36
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:36
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:36
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:36
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:36
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:36
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:36
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:36
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:36
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:36
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:36
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:36
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:36
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:36
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:36
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:36
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:36
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:56:36
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:36
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:36
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:56:36
+main(String[] args) @ VotacionCereal -- 2017/10/10 21:56:54
+ModeloCereal modelo = new ModeloCereal() @ VotacionCereal -- 2017/10/10 21:56:54
+ModeloCereal() @ ModeloCereal -- 2017/10/10 21:56:54
+leerCereales(String archivo) @ ModeloCereal -- 2017/10/10 21:56:54
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:56:54
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:56:54
+leerVotos(String archivo) @ ModeloCereal -- 2017/10/10 21:56:54
+VistaCereal vista = new VistaCereal() @ VotacionCereal -- 2017/10/10 21:56:54
+VistaCereal() @ VistaCereal -- 2017/10/10 21:56:55
+ControladorCereal controlador = new ControladorCereal(modelo, vista) @ VotacionCereal -- 2017/10/10 21:56:55
+ControladorCereal() @ ControladorCereal -- 2017/10/10 21:56:55
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:55
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:56:55
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:56:55
+controlador.iniciarVista() @ VotacionCereal -- 2017/10/10 21:56:55
+iniciarVista() @ ControladorCereal -- 2017/10/10 21:56:55
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:55
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:55
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:55
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:55
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:55
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:55
+actualizarCereales() @ VistaCereal -- 2017/10/10 21:56:55
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:55
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:55
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:55
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:55
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:55
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:55
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:56:58
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:58
+getCerealA() @ ModeloCereal -- 2017/10/10 21:56:58
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:56:58
+getCerealB() @ ModeloCereal -- 2017/10/10 21:56:58
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:56:58
+getCerealC() @ ModeloCereal -- 2017/10/10 21:56:58
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:56:58
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:56:58
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:56:58
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:56:58
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:56:58
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:56:58
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:01
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:01
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:01
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:01
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:01
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:01
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:01
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:01
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:01
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:01
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:01
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:01
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:01
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:01
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:02
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:02
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:02
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:02
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:02
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:02
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:02
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:02
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:02
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:02
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:02
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:02
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:04
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:57:04
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:57:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:04
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:57:04
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:57:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:04
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:57:04
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:57:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:04
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:57:04
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:57:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:04
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:04
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:04
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:04
+	Clicked cereal B button @ ControladorCereal -- 2017/10/10 21:57:04
+votoCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:04
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:04
+actualizarVotosB() @ VistaCereal -- 2017/10/10 21:57:04
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:06
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:06
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:06
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:06
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:06
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:06
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:06
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:06
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:06
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:06
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:06
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:06
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:06
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:06
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:06
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:07
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:07
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:07
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:07
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:07
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:07
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:07
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:07
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:07
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:07
+getButtonCerealB() @ VistaCereal -- 2017/10/10 21:57:07
+getButtonCerealC() @ VistaCereal -- 2017/10/10 21:57:07
+	Clicked cereal C button @ ControladorCereal -- 2017/10/10 21:57:07
+votoCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:07
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:07
+actualizarVotosC() @ VistaCereal -- 2017/10/10 21:57:07
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:08
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:08
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:08
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:08
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:08
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:08
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:08
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:08
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:08
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:09
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:09
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:09
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:09
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:09
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:09
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:09
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:09
+actionPerformed(ActionEvent evento) @ ControladorCereal -- 2017/10/10 21:57:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealB() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealB() @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealC() @ ModeloCereal -- 2017/10/10 21:57:09
+getCerealC() @ ModeloCereal -- 2017/10/10 21:57:09
+getButtonCerealA() @ VistaCereal -- 2017/10/10 21:57:09
+	Clicked cereal A button @ ControladorCereal -- 2017/10/10 21:57:09
+votoCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+guardaVoto(String archivo) @ ModeloCereal -- 2017/10/10 21:57:09
+getVotosCerealA() @ ModeloCereal -- 2017/10/10 21:57:09
+actualizarVotosA() @ VistaCereal -- 2017/10/10 21:57:09

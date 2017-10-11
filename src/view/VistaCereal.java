@@ -25,8 +25,6 @@ public class VistaCereal extends javax.swing.JFrame {
     private final String NOMBRE_CLASE = "VistaCereal";
     private Bitacora bitacora;
 
-    
-    
     /**
      * Creates new form viewCereal
      */
@@ -276,9 +274,7 @@ public class VistaCereal extends javax.swing.JFrame {
     public void showPanelGraficos(){
         this.panelGraficos.setVisible(true);
     }
-    
-    
-    
+  
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton buttonCerealA;
     private javax.swing.JButton buttonCerealB;

@@ -78,10 +78,16 @@ public class ControladorCereal implements ActionListener {
     }
     
     private void cargarGraficos(){
-        System.out.println("Cargando gráficos...");
-        graficos.actualizarGraficos(modelo.getVotosCerealA(), modelo.getCerealA(), modelo.getVotosCerealB(), modelo.getCerealB(), modelo.getVotosCerealC(), modelo.getCerealC());
+        
+        graficos.actualizarGraficos(
+                modelo.getVotosCerealA(), 
+                modelo.getCerealA(), 
+                modelo.getVotosCerealB(), 
+                modelo.getCerealB(), 
+                modelo.getVotosCerealC(), 
+                modelo.getCerealC());
         vista.setPanelGraficos(graficos.getPanelGraficos());
-        System.out.println("Gráficos Cargados con éxito.");
+        
     }
     
 }
